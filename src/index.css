@@ -1,0 +1,111 @@
+.app {
+  max-width: 640px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: system-ui, sans-serif;
+  color: #222;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.search-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+.search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background: #357abd;
+}
+
+.result h2 {
+  text-transform: capitalize;
+  margin-bottom: 4px;
+}
+
+.phonetic {
+  color: #666;
+  font-style: italic;
+  margin-top: 0;
+  cursor: pointer;
+  display: inline;
+}
+
+.entry {
+  margin-top: 20px;
+  padding-top: 12px;
+  border-top: 1px solid #eee;
+}
+
+.entry h3 {
+  color: #4a90e2;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.entry ol {
+  padding-left: 22px;
+}
+
+.entry li {
+  margin-bottom: 12px;
+}
+
+.examples {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 6px;
+}
+
+.example {
+  color: #666;
+  font-style: italic;
+  margin: 4px 0;
+}
+
+.synonyms {
+  color: #444;
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+.source {
+  margin-top: 24px;
+  font-size: 13px;
+  color: #888;
+}
+
+.source a {
+  color: #4a90e2;
+}
+
+.error {
+  color: #c0392b;
+  text-align: center;
+}
