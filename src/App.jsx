@@ -48,7 +48,6 @@ function App() {
         }
       }
     }
-    console.log(words);
     return [...words];
   }
   return (
